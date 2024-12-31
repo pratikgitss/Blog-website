@@ -50,7 +50,7 @@ export function Avatar({
   size = "small",
 }: {
   aName: string;
-  size: "small" | "big";
+  size?: "small" | "big";
 }) {
   return (
     <div
